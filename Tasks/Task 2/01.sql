@@ -1,5 +1,7 @@
 --Найти максимальный размер из таблицы Production.Product
 SELECT MAX(Size) as SizeMax
+     , MIN(Size) as SizeMax
+     , COUNT(*) AS CountRows
 FROM Production.Product;
 
 SELECT MIN(Size) as SizeMax
